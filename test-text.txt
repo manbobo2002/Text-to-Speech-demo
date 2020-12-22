@@ -1,0 +1,18 @@
+{
+  "error": {
+    "code": 403,
+    "message": "Your application has authenticated using end user credentials from the Google Cloud SDK or Google Cloud Shell which are not supported by the texttospeech.googleapis.com. We recommend configuring the billing/quota_project setting in gcloud or using a service account through the auth/impersonate_service_account setting. For more information about service accounts and how to use them in your application, see https://cloud.google.com/docs/authentication/.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "SERVICE_DISABLED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "texttospeech.googleapis.com",
+          "consumer": "projects/618104708054"
+        }
+      }
+    ]
+  }
+}
